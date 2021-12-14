@@ -1,7 +1,9 @@
 package com.nan.todo.data
 
+import androidx.compose.runtime.mutableStateListOf
+
 object DataCenter {
-    val todos = mutableListOf(
+    val todos = mutableStateListOf(
         Todo().apply {
             name = "吃饭"
         },
